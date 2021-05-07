@@ -1,0 +1,9 @@
+[
+    {"from": "Kathrin", "to": "company", "text": "Dear Company! Where is my package?", "friend": false, "colleague": true, "unknown": false, "urgent": true },
+    {"from": "John", "to": "me", "text": "Hello! How are you today? Your last work was very nice.", "friend": true, "colleague": false, "unknown": false, "urgent": false },
+    {"from": "Cintia", "to": "company", "text": "Dear Company! I have recieved the boxes. Thank you very much!", "friend": false, "colleague": true, "unknown": false, "urgent": false },
+    {"from": "Dennie", "to": "company", "text": "Dear Company! I want to contact with your company.", "friend": false, "colleague": false, "unknown": true, "urgent": true },
+    {"from": "Fritz", "to": "company", "text": "Dear Company! How much is the...?", "friend": false, "colleague": true, "unknown": false, "urgent": true },
+    {"from": "Zita", "to": "me", "text": "Dear Friend, It has been a while since we have last spoken", "friend": true, "colleague": false, "unknown": false, "urgent": false }
+
+]
