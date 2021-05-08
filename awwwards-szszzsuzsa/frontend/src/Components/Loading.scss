@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+
+.bottom-frame{
+    padding: 0rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loading-line {
+    background-color: #FE1C65;
+    padding: 0;
+    width: 10rem;
+    height: 0.01rem;
+    animation: loader 25s ease-in-out;
+  }
+  
+@keyframes loader {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 23%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 83%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+
+.number{
+    padding: 0;
+    color:#FE1C65;
+    font-family: Noto Sans JP;
+    font-weight: 200;
+    animation: counter 4s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    }
+    .number::after {
+        content: counter(num);
+    }
+      
+      @keyframes counter {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 100;
+        }
+      }
+    
+
+
+
+

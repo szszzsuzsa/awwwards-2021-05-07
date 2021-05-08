@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+.chats{
+    margin: 0rem 1rem;
+    padding: 0.5rem 1rem;
+    font-family: Noto Sans Jp;
+    font-size: 18px;
+    color: #FE1C65;
+    font-weight: 500;
+    display: grid;
+    
+}

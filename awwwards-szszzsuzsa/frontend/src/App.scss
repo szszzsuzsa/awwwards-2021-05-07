@@ -1,0 +1,69 @@
+.App{
+  padding: 0;
+}
+
+h1{
+  padding: 1rem 0rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .App{
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh auto;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+
+    img{
+      width: 5rem;
+    }
+
+    input{
+      width: 60vw;
+      font-size: 3vw;
+    }
+
+    .first{
+      width: 0;
+    }
+
+    .second{
+      width: 0;
+    }
+
+   
+    h1{
+      font-size: 5vw;
+      padding: 2vw 0vw;
+    }
+
+    ::placeholder{
+      font-size: 3vw;
+    }
+
+    .chats{
+      padding: 0;
+      margin: 0;
+      font-size: 4.5vw;
+    }
+
+    svg{
+      padding: 0;
+      margin: 0;
+    }
+
+    .main{
+      margin: 0rem;
+      padding: 1;
+    }
+
+    .bird{
+      margin: 5rem;
+      margin-bottom: 120vw;
+    }
+
+    .feathers{
+      padding: 0;
+    }
+  }
+}

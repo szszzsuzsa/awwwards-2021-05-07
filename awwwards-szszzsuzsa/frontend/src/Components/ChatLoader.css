@@ -1,0 +1,40 @@
+.main{
+    margin: 0rem 5rem;
+    padding: 0.5rem 2rem;
+    font-family: Noto Sans Jp;
+    font-size: 18px;
+    color: #8b719d;
+    font-weight: 500;
+    display: grid;
+}
+
+input{
+    height: 2rem;
+    width: 40rem;
+    background-color: #8b719d;
+    border: 5px;
+    color: #302350;
+}
+
+::placeholder {
+    color: #302350;
+    opacity: 1; /* Firefox */
+    font-weight: 500;
+    font-size: larger;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #302350;
+   font-weight: 500;
+
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #302350;
+  }
+
+::placeholder{
+    color: #302350;
+    font-weight: 500;
+
+}

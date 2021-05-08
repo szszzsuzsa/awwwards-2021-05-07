@@ -1,0 +1,59 @@
+.App {
+  padding: 0;
+}
+
+h1 {
+  padding: 1rem 0rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh auto;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+  }
+  .App img {
+    width: 5rem;
+  }
+  .App input {
+    width: 60vw;
+    font-size: 3vw;
+  }
+  .App .first {
+    width: 0;
+  }
+  .App .second {
+    width: 0;
+  }
+  .App h1 {
+    font-size: 5vw;
+    padding: 2vw 0vw;
+  }
+  .App ::placeholder {
+    font-size: 3vw;
+  }
+  .App .chats {
+    padding: 0;
+    margin: 0;
+    font-size: 4.5vw;
+  }
+  .App svg {
+    padding: 0;
+    margin: 0;
+  }
+  .App .main {
+    margin: 0rem;
+    padding: 1;
+  }
+  .App .bird {
+    margin: 5rem;
+    margin-bottom: 120vw;
+  }
+  .App .feathers {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

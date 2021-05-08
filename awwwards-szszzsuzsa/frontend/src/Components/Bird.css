@@ -1,0 +1,46 @@
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 14px;}
+}
+
+
+body{
+    background-color: #302350;
+}
+
+svg{
+    height: 3em;
+    padding: 8rem;
+}
+
+.st0{
+        fill: #FE1C65;
+    }
+.st1{
+        fill:none; 
+        stroke:#000405; 
+        stroke-miterlimit:10;
+    }
+
+#top{
+    visibility: visible;
+}
+
+
+.bird{
+    animation: mymove 1.2s infinite;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 20rem;
+}
+
+
+#bird{
+    padding: 0;
+    animation-timing-function: ease-in-out;
+
+}
