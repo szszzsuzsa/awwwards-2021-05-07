@@ -1,11 +1,13 @@
 import React from "react";
 import Feather from "../bird_feather3.png";
-import "./Feathers.css"
+import "./Feathers.css";
+import Dots from "./Dots";
 
 function Feathers() {
   return (
-      <div>
+      <div> <Dots/>
     <div className="feathers">
+    
       <div className="first">
         {" "}
         <img src={Feather} alt="feather"></img>
@@ -44,6 +46,7 @@ function Feathers() {
       </div>
       
     </div>
+    <Dots/>
     </div>
   );
 }

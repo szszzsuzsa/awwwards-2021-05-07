@@ -40,7 +40,7 @@ function ChatLoader() {
 <h1>Search who sent you message:</h1>
 <input
         type="text"
-        placeholder="Push Enter after your characters..."
+        placeholder="Let's search who sent you a message..."
         onChange={(event) => {
           setSearchTerm(event.target.value);
         }}

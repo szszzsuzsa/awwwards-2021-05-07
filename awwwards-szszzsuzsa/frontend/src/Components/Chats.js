@@ -1,6 +1,6 @@
 import React from "react";
 import "./Chats.css";
-import {useState} from "react"
+import Dots from './Dots';
 
 function Chats({ chats }) {
 
@@ -9,6 +9,7 @@ function Chats({ chats }) {
 
 
       <div className="chats">
+        <Dots />
         <p>From: {chats.from}</p>
         <p>To: {chats.to} </p>
         <p>Chat message: {chats.text}</p>
@@ -20,6 +21,8 @@ function Chats({ chats }) {
           : "This message is not urgent."}</p>
           <br/>*
       </div>
+      
+
     </div>
   );
 }
